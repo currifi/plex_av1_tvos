@@ -1,15 +1,19 @@
-Plex tvOS AV1 Client Profile
+<h1>Plex tvOS AV1 Client Profile</h1>
 
-Issue:
+<h2>Issue:</h2><br />
 When trying to play AV1 files using plex tvOS client, transcoding is initiated to h264.
 
-Workaround:
+<h2>Workaround:</h2><br />
 Create Profile folder and copy the tvOS.xml file to the folder and restart your plex server and test. 
-Example (ubuntu): 
-Location of Plex data: 
-/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/
-mkdir "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Profiles"
-nano "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Profiles/tvOS.xml"
-Copy contents from tvOS.xml to new file, save and reboot plex.
-Test plex client on Apple TV. 
-For help finding Plex data location: https://support.plex.tv/articles/202915258-where-is-the-plex-media-server-data-directory-located/ 
+
+<h3>Example (ubuntu):</h3> 
+
+Location of Plex data: <br />
+/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/ <br />
+<code>mkdir "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Profiles"</code> <br />
+<code>nano "/var/lib/plexmediaserver/Library/Application Support/Plex Media Server/Profiles/tvOS.xml"</code><br />
+Copy contents from tvOS.xml to new file, save and reboot Plex server. <br />
+Test Plex client on Apple TV. <br />
+
+<b>For help finding Plex data location on other Operating Systems:</b><br /> 
+https://support.plex.tv/articles/202915258-where-is-the-plex-media-server-data-directory-located/ 
