@@ -4,7 +4,7 @@
 When trying to play AV1 files using plex tvOS client, transcoding is initiated to h264.
 
 <h2>Workaround:</h2><br />
-Create <b>Profile</b> folder and copy the <b>tvOS.xml</b> file to the folder and restart your Plex server. 
+Create <b>Profile</b> folder and copy the <b><a href="https://github.com/scriptsingh/plex_av1_tvos/blob/main/tvOS.xml">tvOS.xml</a></b> file to the folder and restart your Plex server. 
 
 <h3>Example (ubuntu):</h3> 
 
