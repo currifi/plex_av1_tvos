@@ -19,3 +19,5 @@ Test Plex client on Apple TV. <br />
 https://support.plex.tv/articles/202915258-where-is-the-plex-media-server-data-directory-located/ 
 
 Tested with smooth playback on latest Apple TV 4k and last gen model. 1st Gen model stutters on 1080p av1 and 4k content.
+
+<b>This information is free, if you are using do not sell and please link back. </b>
